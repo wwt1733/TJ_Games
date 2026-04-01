@@ -16,7 +16,7 @@ D:/UnityGame/TJ_Games/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53340
+63306
 Successfully changed project path to: D:/UnityGame/TJ_Games/My project
 D:/UnityGame/TJ_Games/My project
 [Memory] Configuration Parameters - Can be set up in boot.config
@@ -50,16 +50,16 @@ D:/UnityGame/TJ_Games/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4276]  Target information:
+Player connection [10568]  Target information:
 
-Player connection [4276]  * "[IP] 10.163.58.136 [Port] 0 [Flags] 2 [Guid] 1117282829 [EditorId] 1117282829 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9V330MSJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10568]  * "[IP] 10.163.58.136 [Port] 0 [Flags] 2 [Guid] 1566662562 [EditorId] 1566662562 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-9V330MSJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [4276] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [4276] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10568] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10568] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 AS: AutoStreaming module initializing.
 [LiveLink] LiveLink library is loaded successfully. Initializing...
-InitScreenManager.Refreshing native plugins compatible for Editor in 48.99 ms, found 5 plugins.
+InitScreenManager.Refreshing native plugins compatible for Editor in 42.85 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62t5 (dafb34cd5fa5)
 [Subsystems] Discovering subsystems at path E:/unity/2022.3.62t5/Editor/Data/Resources/UnitySubsystems
@@ -75,48 +75,48 @@ Initialize mono
 Mono path[0] = 'E:/unity/2022.3.62t5/Editor/Data/Managed'
 Mono path[1] = 'E:/unity/2022.3.62t5/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/unity/2022.3.62t5/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56684
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=0.0.0.0:56076
 Begin MonoManager ReloadAssembly
 Registering precompiled tuanjie dll's ...
 Register platform support module: E:/unity/2022.3.62t5/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/unity/2022.3.62t5/Editor/Data/PlaybackEngines/WeixinMiniGameSupport/UnityEditor.WeixinMiniGame.Extensions.dll
 Register platform support module: E:/unity/2022.3.62t5/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.039966 seconds.
-- Loaded All Assemblies, in  0.609 seconds
+Registered in 0.030579 seconds.
+- Loaded All Assemblies, in  0.527 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WeixinMiniGame target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.340 seconds
-Domain Reload Profiling: 938ms
-	BeginReloadAssembly (192ms)
+- Finished resetting the current domain, in  0.268 seconds
+Domain Reload Profiling: 789ms
+	BeginReloadAssembly (189ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
+	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (120ms)
-	LoadAllAssembliesAndSetupDomain (229ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
 		LoadAssemblies (183ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (222ms)
-				TypeCache.ScanAssembly (206ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (179ms)
+				TypeCache.ScanAssembly (162ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (340ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (269ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (281ms)
+		SetupLoadedEditorAssemblies (216ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (224ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,766 +125,51 @@ Domain Reload Profiling: 938ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.117 seconds
+- Loaded All Assemblies, in  0.974 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WeixinMiniGame target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.855 seconds
-Domain Reload Profiling: 1955ms
-	BeginReloadAssembly (238ms)
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1666ms
+	BeginReloadAssembly (196ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (74ms)
-	LoadAllAssembliesAndSetupDomain (734ms)
-		LoadAssemblies (674ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (650ms)
+		LoadAssemblies (578ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (226ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (167ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (855ms)
+	FinalizeReload (707ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (655ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (436ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (25ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 22.38 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4386 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (58.9 KB). Loaded Objects now: 4876.
-Memory consumption went from 129.0 MB to 128.9 MB.
-Total: 3.622400 ms (FindLiveObjects: 0.272900 ms CreateObjectMapping: 0.106000 ms MarkObjects: 3.115600 ms  DeleteObjects: 0.126200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 19392.918317 seconds.
-  path: Assets/Sprites/Castle_Blue.png
-  artifactKey: Guid(01035782ef24ff7468f8dab23fda3dfe) Importer(PreviewImporter)
-Start importing Assets/Sprites/Castle_Blue.png using Guid(01035782ef24ff7468f8dab23fda3dfe) Importer(PreviewImporter) Launched and connected shader compiler TuanjieShaderCompiler.exe after 0.10 seconds
- -> (artifact id: '3cd17e57d668b7b363bf491a5a571196') in 0.380663 seconds
-Number of asset objects unloaded after import = 22
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/Tree.png
-  artifactKey: Guid(5e569e56995b01245b5d358c9537eab7) Importer(PreviewImporter)
-Start importing Assets/Sprites/Tree.png using Guid(5e569e56995b01245b5d358c9537eab7) Importer(PreviewImporter)  -> (artifact id: '03d1c1cad3a03eb6227f3633f7e10251') in 0.174407 seconds
-Number of asset objects unloaded after import = 47
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Sprites/Tilemap_Flat.png
-  artifactKey: Guid(7b0d973064071ba4abed5e43601dda83) Importer(PreviewImporter)
-Start importing Assets/Sprites/Tilemap_Flat.png using Guid(7b0d973064071ba4abed5e43601dda83) Importer(PreviewImporter)  -> (artifact id: 'cf058831fd7c1a1c70560a2de53972fe') in 0.150977 seconds
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/Shadows.png
-  artifactKey: Guid(804c4124ab403824c873de1f7b0a5b12) Importer(PreviewImporter)
-Start importing Assets/Sprites/Shadows.png using Guid(804c4124ab403824c873de1f7b0a5b12) Importer(PreviewImporter)  -> (artifact id: '88cd57039630fd56ee4eeb6c84d991d4') in 0.043400 seconds
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 3.145250 seconds.
-  path: Assets/Sprites/Grass Tiles/Castle_Blue_1.asset
-  artifactKey: Guid(3dcdfa101d9f95b4b85f4d4f16e8c1bc) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Castle_Blue_1.asset using Guid(3dcdfa101d9f95b4b85f4d4f16e8c1bc) Importer(PreviewImporter)  -> (artifact id: '8a38fa3d35cfa8d86028fc873c4f6ab4') in 0.012671 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Grass Tiles/Castle_Blue_12.asset
-  artifactKey: Guid(a177b67a1f83fc141b6f829c715109f7) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Castle_Blue_12.asset using Guid(a177b67a1f83fc141b6f829c715109f7) Importer(PreviewImporter)  -> (artifact id: '34f03fa1cbeee7bde9b3c1a42c38a857') in 0.007267 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Elevation_0.asset
-  artifactKey: Guid(48f7dbee4a0bf7047a5e494206c4fb19) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Elevation_0.asset using Guid(48f7dbee4a0bf7047a5e494206c4fb19) Importer(PreviewImporter)  -> (artifact id: '48aaa306935743c006edc661e1d7e77d') in 0.006466 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Elevation_17.asset
-  artifactKey: Guid(781d17d3b95c2124b900428200356157) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Elevation_17.asset using Guid(781d17d3b95c2124b900428200356157) Importer(PreviewImporter)  -> (artifact id: '934935d9462b88515b7f32b2a3e99e6b') in 0.007379 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Elevation_5.asset
-  artifactKey: Guid(6d9a6659f6c58924bbd061182483ec5c) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Elevation_5.asset using Guid(6d9a6659f6c58924bbd061182483ec5c) Importer(PreviewImporter)  -> (artifact id: 'c9f6b990f9adfea0c0b37bfa2ad0ddbe') in 0.032238 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Elevation_7.asset
-  artifactKey: Guid(635bdc5a44889974bb04197edaf4c59c) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Elevation_7.asset using Guid(635bdc5a44889974bb04197edaf4c59c) Importer(PreviewImporter)  -> (artifact id: 'ca4665e7a024b596cfa10c2f743bfb9a') in 0.007261 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Elevation_27.asset
-  artifactKey: Guid(1f43d13adac29264db980486292c0bef) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Elevation_27.asset using Guid(1f43d13adac29264db980486292c0bef) Importer(PreviewImporter)  -> (artifact id: 'efc2f4134253828848d04d2c3fd940a1') in 0.012517 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Grass Tiles/Castle_Blue_19.asset
-  artifactKey: Guid(aedf3a3b9390c04459e358247c1fc50c) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Castle_Blue_19.asset using Guid(aedf3a3b9390c04459e358247c1fc50c) Importer(PreviewImporter)  -> (artifact id: 'b60e5f34b4fd8b2b3e9eeda2041d5c19') in 0.006719 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Elevation_22.asset
-  artifactKey: Guid(81676f3e481b91940a33597dda8d3f27) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Elevation_22.asset using Guid(81676f3e481b91940a33597dda8d3f27) Importer(PreviewImporter)  -> (artifact id: 'bfd6978b52e6cb964ce68feee1bccd59') in 0.006906 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Grass Tiles/Castle_Blue_9.asset
-  artifactKey: Guid(7111fc646f7b2dc4ea7634785a396092) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Castle_Blue_9.asset using Guid(7111fc646f7b2dc4ea7634785a396092) Importer(PreviewImporter)  -> (artifact id: 'd9fed3d86bda386a8a831734e4a3fb65') in 0.011891 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Grass Tiles/Castle_Blue_11.asset
-  artifactKey: Guid(4be255576102fd343ba7cbff0553499f) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Castle_Blue_11.asset using Guid(4be255576102fd343ba7cbff0553499f) Importer(PreviewImporter)  -> (artifact id: '0ad56fddef970f867e5993eb98084b76') in 0.006458 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_1.asset
-  artifactKey: Guid(0bfceca448a00d64aa743d75e5cf2d23) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_1.asset using Guid(0bfceca448a00d64aa743d75e5cf2d23) Importer(PreviewImporter)  -> (artifact id: '6acc3fc36824ecf5f463ab2a7f1ebd66') in 0.007497 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Elevation_18.asset
-  artifactKey: Guid(28f38b35b2951a1418b0194f17e83a75) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Elevation_18.asset using Guid(28f38b35b2951a1418b0194f17e83a75) Importer(PreviewImporter)  -> (artifact id: 'e05b019c93fbf9fae69c9c26fed8a36a') in 0.010610 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Grass Tiles/Castle_Blue_13.asset
-  artifactKey: Guid(b9667e6f6d22940448e6e75b99f3ef8f) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Castle_Blue_13.asset using Guid(b9667e6f6d22940448e6e75b99f3ef8f) Importer(PreviewImporter)  -> (artifact id: '627afe75edfe0960d6ea1db89348876f') in 0.007682 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Elevation_12.asset
-  artifactKey: Guid(aa1fcc8048f341743a1a4a1e2406299f) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Elevation_12.asset using Guid(aa1fcc8048f341743a1a4a1e2406299f) Importer(PreviewImporter)  -> (artifact id: '27c0731b4e259cb6481885c409be8d97') in 0.007220 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Sprites/Grass Tiles/Grass Tiles.prefab
-  artifactKey: Guid(b66ce6cf3c43d0344b7e62e0eda89cfa) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Grass Tiles.prefab using Guid(b66ce6cf3c43d0344b7e62e0eda89cfa) Importer(PreviewImporter)  -> (artifact id: '1cdc9226f7391745c6c56871b3396cda') in 0.182854 seconds
-Number of asset objects unloaded after import = 292
-========================================================================
-Received Import Request.
-  Time since last request: 0.608397 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_6.asset
-  artifactKey: Guid(76ccb37351e28304eaf1fa9da13a7906) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_6.asset using Guid(76ccb37351e28304eaf1fa9da13a7906) Importer(PreviewImporter)  -> (artifact id: '47537f497f81e35b6027c33c3101ef21') in 0.008013 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_17.asset
-  artifactKey: Guid(5a830dc7506ffe4418ca7c440347e564) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_17.asset using Guid(5a830dc7506ffe4418ca7c440347e564) Importer(PreviewImporter)  -> (artifact id: '26e0d15d7593d5aa7dae58d9cae7c2be') in 0.008234 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_15.asset
-  artifactKey: Guid(d30906b112aee28408d75bba9f35cb70) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_15.asset using Guid(d30906b112aee28408d75bba9f35cb70) Importer(PreviewImporter)  -> (artifact id: '944f16c92353f3cbecabbd9b580b483f') in 0.006847 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_13.asset
-  artifactKey: Guid(df9f0c5771493af4b9ec8dec67ffaea1) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_13.asset using Guid(df9f0c5771493af4b9ec8dec67ffaea1) Importer(PreviewImporter)  -> (artifact id: '012749a0d954378ba75afd32a1faddd6') in 0.007869 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_11.asset
-  artifactKey: Guid(3fcec2cfb1de7f143be7f72c8f456b13) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_11.asset using Guid(3fcec2cfb1de7f143be7f72c8f456b13) Importer(PreviewImporter)  -> (artifact id: 'd3e38dc69a05fb713b5c273729a1674d') in 0.006344 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.026156 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_19.asset
-  artifactKey: Guid(8fd2312a8a7eec14bb0a3b3580bf7cfd) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_19.asset using Guid(8fd2312a8a7eec14bb0a3b3580bf7cfd) Importer(PreviewImporter)  -> (artifact id: 'fc28293f1dc126b2ae538aeb235ff5e6') in 0.006837 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_26.asset
-  artifactKey: Guid(a1e7facade594604d81773febb33ea2b) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_26.asset using Guid(a1e7facade594604d81773febb33ea2b) Importer(PreviewImporter)  -> (artifact id: '7a6b92ea266e1de3e9d9b202c52d5aa5') in 0.007200 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_0.asset
-  artifactKey: Guid(61caefebf3f500c4597d6c6b695b2241) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_0.asset using Guid(61caefebf3f500c4597d6c6b695b2241) Importer(PreviewImporter)  -> (artifact id: '05069ed922f654874a6dedef22aa7ea3') in 0.013013 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_23.asset
-  artifactKey: Guid(89ac85284657de6438c6793dd6ab2233) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_23.asset using Guid(89ac85284657de6438c6793dd6ab2233) Importer(PreviewImporter)  -> (artifact id: '7a0628d166088b5e94ed6e869fa0a2af') in 0.006567 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_32.asset
-  artifactKey: Guid(b5755c0b41e3b3945b1a42570664f806) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_32.asset using Guid(b5755c0b41e3b3945b1a42570664f806) Importer(PreviewImporter)  -> (artifact id: 'dc90efbbd506e08379568e14cc2157d9') in 0.009357 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_1.asset
-  artifactKey: Guid(55b5bbe59f2625b4ea392e7c70845038) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_1.asset using Guid(55b5bbe59f2625b4ea392e7c70845038) Importer(PreviewImporter)  -> (artifact id: '35e5e16851c6d2a5f6fc7f1dd196b314') in 0.011200 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_25.asset
-  artifactKey: Guid(62d06d74c9fb9d44293e25c877d06e59) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_25.asset using Guid(62d06d74c9fb9d44293e25c877d06e59) Importer(PreviewImporter)  -> (artifact id: '35d1be373609c3d07143c0c90e10132c') in 0.006726 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_11.asset
-  artifactKey: Guid(21b732de50149f5448faf257e0ebaa26) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_11.asset using Guid(21b732de50149f5448faf257e0ebaa26) Importer(PreviewImporter)  -> (artifact id: 'dcaa08f556c4aae6ba599bc30162a4ef') in 0.007504 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_31.asset
-  artifactKey: Guid(1e9b841b92e0e30428239c92d8fc1752) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_31.asset using Guid(1e9b841b92e0e30428239c92d8fc1752) Importer(PreviewImporter)  -> (artifact id: '2c71d12e2abe52dde775366061a92f5b') in 0.010407 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_5.asset
-  artifactKey: Guid(c35c951b6fbc3634d8698923e95d5520) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_5.asset using Guid(c35c951b6fbc3634d8698923e95d5520) Importer(PreviewImporter)  -> (artifact id: 'e63f51b5ca7a7f56ec1686a911d8f0dc') in 0.008477 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_17.asset
-  artifactKey: Guid(3055cde47b3815143a96292203156150) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_17.asset using Guid(3055cde47b3815143a96292203156150) Importer(PreviewImporter)  -> (artifact id: '5903beb152c013a279a2960332a34fd1') in 0.008974 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_30.asset
-  artifactKey: Guid(be013cac976bc9b43832f171dfac4de1) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_30.asset using Guid(be013cac976bc9b43832f171dfac4de1) Importer(PreviewImporter)  -> (artifact id: 'ebe67341e102e4bdd857874c8e12404c') in 0.009273 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_4.asset
-  artifactKey: Guid(e3d7b1f26d9506241b620a35ad554fce) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_4.asset using Guid(e3d7b1f26d9506241b620a35ad554fce) Importer(PreviewImporter)  -> (artifact id: 'b6b2a18e261b627b8b2edd1a6d33917c') in 0.007023 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_25.asset
-  artifactKey: Guid(a6a3f3389f30da044bd8941ac0a36784) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_25.asset using Guid(a6a3f3389f30da044bd8941ac0a36784) Importer(PreviewImporter)  -> (artifact id: 'a7eb7fe120949e0b86d5cdf2c0e1568a') in 0.009742 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_9.asset
-  artifactKey: Guid(b8170aafa035c6e45a393ff1af7f0cbc) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_9.asset using Guid(b8170aafa035c6e45a393ff1af7f0cbc) Importer(PreviewImporter)  -> (artifact id: '4c1bae08847b8235a22fe2f1bb2fcbc1') in 0.010861 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_33.asset
-  artifactKey: Guid(15d95b93957149645a4dc77996efd459) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_33.asset using Guid(15d95b93957149645a4dc77996efd459) Importer(PreviewImporter)  -> (artifact id: '98b7407e454d17b79b9365ab631d1b8d') in 0.007431 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Sprites/Grass Tiles/Tilemap_Flat_21.asset
-  artifactKey: Guid(f66eb67615d093c4998c6983c798fc35) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tilemap_Flat_21.asset using Guid(f66eb67615d093c4998c6983c798fc35) Importer(PreviewImporter)  -> (artifact id: '762c3893f38c9d4c5808b7f7fbcc63fd') in 0.009589 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.487246 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_37.asset
-  artifactKey: Guid(1129fc7938f865c448de5e0b79857b19) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_37.asset using Guid(1129fc7938f865c448de5e0b79857b19) Importer(PreviewImporter)  -> (artifact id: '42b2558d592143e985b2966639e9f7ea') in 0.009388 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_43.asset
-  artifactKey: Guid(48b6be9fdf9787a48b5f3ef0c72affbe) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_43.asset using Guid(48b6be9fdf9787a48b5f3ef0c72affbe) Importer(PreviewImporter)  -> (artifact id: '81db8915099e0563d72196e26d7f0d0c') in 0.008307 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Grass Tiles/Tree_44.asset
-  artifactKey: Guid(65e86a97a0c86624d966bbffb9384908) Importer(PreviewImporter)
-Start importing Assets/Sprites/Grass Tiles/Tree_44.asset using Guid(65e86a97a0c86624d966bbffb9384908) Importer(PreviewImporter)  -> (artifact id: '49b7e240c64c5315f48f910acfe86a53') in 0.009921 seconds
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.789 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WeixinMiniGame target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.578 seconds
-Domain Reload Profiling: 2354ms
-	BeginReloadAssembly (1291ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (1060ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (512ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (578ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (420ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (269ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 13.29 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4374 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (32.7 KB). Loaded Objects now: 4904.
-Memory consumption went from 131.2 MB to 131.2 MB.
-Total: 3.049000 ms (FindLiveObjects: 0.262100 ms CreateObjectMapping: 0.103300 ms MarkObjects: 2.630400 ms  DeleteObjects: 0.052100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.904 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WeixinMiniGame target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.910 seconds
-Domain Reload Profiling: 2799ms
-	BeginReloadAssembly (235ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (556ms)
-		LoadAssemblies (663ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (49ms)
-			TypeCache.Refresh (22ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1911ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (546ms)
+		SetupLoadedEditorAssemblies (550ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (114ms)
-			ProcessInitializeOnLoadAttributes (363ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 24.37 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (32.9 KB). Loaded Objects now: 4910.
-Memory consumption went from 130.6 MB to 130.6 MB.
-Total: 6.245300 ms (FindLiveObjects: 0.478000 ms CreateObjectMapping: 0.343200 ms MarkObjects: 5.332900 ms  DeleteObjects: 0.088600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Soider_EnenyMovement.cs: 7c91d29ba4d232c81192a3897cf32a03 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e274eaa3274320f8b0443740bb0e3870 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 581.626267 seconds.
-  path: Assets/Scripts/Enenmy/Soider_EnenyMovement.cs
-  artifactKey: Guid(cdaba7641eaf24c44acfdcd3811f2d77) Importer(PreviewImporter)
-Start importing Assets/Scripts/Enenmy/Soider_EnenyMovement.cs using Guid(cdaba7641eaf24c44acfdcd3811f2d77) Importer(PreviewImporter)  -> (artifact id: 'a296d4544d22578c24341df504a8698d') in 0.003197 seconds
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.786 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WeixinMiniGame target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.746 seconds
-Domain Reload Profiling: 2515ms
-	BeginReloadAssembly (236ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (430ms)
-		LoadAssemblies (563ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1746ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (418ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (24ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 15.32 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4375 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (32.8 KB). Loaded Objects now: 4915.
-Memory consumption went from 130.4 MB to 130.4 MB.
-Total: 3.419300 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.106700 ms MarkObjects: 2.979200 ms  DeleteObjects: 0.057900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Soider_EnenyMovement.cs: 7c91d29ba4d232c81192a3897cf32a03 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e274eaa3274320f8b0443740bb0e3870 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.771 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WeixinMiniGame target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.604 seconds
-Domain Reload Profiling: 2359ms
-	BeginReloadAssembly (248ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (401ms)
-		LoadAssemblies (537ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (1604ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (411ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (254ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 14.40 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (32.8 KB). Loaded Objects now: 4920.
-Memory consumption went from 130.6 MB to 130.6 MB.
-Total: 3.224000 ms (FindLiveObjects: 0.425800 ms CreateObjectMapping: 0.107300 ms MarkObjects: 2.631000 ms  DeleteObjects: 0.058500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Soider_EnenyMovement.cs: 7c91d29ba4d232c81192a3897cf32a03 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e274eaa3274320f8b0443740bb0e3870 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.722 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WeixinMiniGame target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.444 seconds
-Domain Reload Profiling: 2152ms
-	BeginReloadAssembly (230ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (381ms)
-		LoadAssemblies (510ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1445ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (405ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (19ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 19.99 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (32.8 KB). Loaded Objects now: 4925.
-Memory consumption went from 130.6 MB to 130.6 MB.
-Total: 3.292900 ms (FindLiveObjects: 0.355200 ms CreateObjectMapping: 0.150200 ms MarkObjects: 2.660100 ms  DeleteObjects: 0.125700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Soider_EnenyMovement.cs: 7c91d29ba4d232c81192a3897cf32a03 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e274eaa3274320f8b0443740bb0e3870 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.709 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WeixinMiniGame target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.910 seconds
-Domain Reload Profiling: 2607ms
-	BeginReloadAssembly (218ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (379ms)
-		LoadAssemblies (512ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1910ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (522ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (346ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
 			AfterProcessingInitializeOnLoad (21ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 20.81 ms, found 5 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 17.21 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (32.8 KB). Loaded Objects now: 4930.
-Memory consumption went from 130.6 MB to 130.6 MB.
-Total: 4.783400 ms (FindLiveObjects: 0.342500 ms CreateObjectMapping: 0.132700 ms MarkObjects: 4.225600 ms  DeleteObjects: 0.080100 ms)
+Unloading 4554 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (132.4 KB). Loaded Objects now: 5043.
+Memory consumption went from 132.0 MB to 131.8 MB.
+Total: 3.407800 ms (FindLiveObjects: 0.333900 ms CreateObjectMapping: 0.112300 ms MarkObjects: 2.827400 ms  DeleteObjects: 0.132600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -893,7 +178,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Soider_EnenyMovement.cs: 7c91d29ba4d232c81192a3897cf32a03 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
@@ -901,202 +185,53 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e274eaa3274320f8b0443740bb0e3870 -> 
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.764 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WeixinMiniGame target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.937 seconds
-Domain Reload Profiling: 2687ms
-	BeginReloadAssembly (241ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (554ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1938ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (521ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (24ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 20.24 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (32.8 KB). Loaded Objects now: 4935.
-Memory consumption went from 130.6 MB to 130.6 MB.
-Total: 3.736100 ms (FindLiveObjects: 0.413100 ms CreateObjectMapping: 0.141900 ms MarkObjects: 3.109500 ms  DeleteObjects: 0.069800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Soider_EnenyMovement.cs: 7c91d29ba4d232c81192a3897cf32a03 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e274eaa3274320f8b0443740bb0e3870 -> 
+Received Import Request.
+  Time since last request: 31763.859717 seconds.
+  path: Assets/Scenes/SampleScene.scene
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(PreviewImporter)
+Start importing Assets/Scenes/SampleScene.scene using Guid(2cda990e2423bbf4892e6590ba056729) Importer(PreviewImporter)  -> (artifact id: '5fd5432941193a5629b31cded79539bb') in 0.001808 seconds
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.738 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WeixinMiniGame target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.999 seconds
-Domain Reload Profiling: 2722ms
-	BeginReloadAssembly (229ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (397ms)
-		LoadAssemblies (532ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (21ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (2000ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (357ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (23ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Refreshing native plugins compatible for Editor in 20.85 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (32.9 KB). Loaded Objects now: 4940.
-Memory consumption went from 130.6 MB to 130.6 MB.
-Total: 3.824700 ms (FindLiveObjects: 0.540400 ms CreateObjectMapping: 0.182500 ms MarkObjects: 3.025800 ms  DeleteObjects: 0.074300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Soider_EnenyMovement.cs: 7c91d29ba4d232c81192a3897cf32a03 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e274eaa3274320f8b0443740bb0e3870 -> 
+Received Import Request.
+  Time since last request: 55.697540 seconds.
+  path: Assets/Scripts/PlayerScripts
+  artifactKey: Guid(ff9e23b7a96967945863c3500c71fea0) Importer(PreviewImporter)
+Start importing Assets/Scripts/PlayerScripts using Guid(ff9e23b7a96967945863c3500c71fea0) Importer(PreviewImporter)  -> (artifact id: '6d520393287ff2b3a43ddbd624238e0d') in 0.000967 seconds
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.742 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WeixinMiniGame target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.645 seconds
-Domain Reload Profiling: 2369ms
-	BeginReloadAssembly (235ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (520ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1646ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (434ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (20ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 15.18 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4376 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (32.9 KB). Loaded Objects now: 4945.
-Memory consumption went from 130.7 MB to 130.6 MB.
-Total: 2.746200 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.107400 ms MarkObjects: 2.274100 ms  DeleteObjects: 0.092200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 299a746012abc5adb0180d4ccda8d3ad -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/Soider_EnenyMovement.cs: 7c91d29ba4d232c81192a3897cf32a03 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:Assembly-CSharp: e274eaa3274320f8b0443740bb0e3870 -> 
+Received Import Request.
+  Time since last request: 1.819194 seconds.
+  path: Assets/Sprites/Warrior_Blue.png
+  artifactKey: Guid(3053d22ea9a07f14cb6b2cdd68f5e300) Importer(PreviewImporter)
+Start importing Assets/Sprites/Warrior_Blue.png using Guid(3053d22ea9a07f14cb6b2cdd68f5e300) Importer(PreviewImporter) Launched and connected shader compiler TuanjieShaderCompiler.exe after 0.07 seconds
+ -> (artifact id: 'd77beae8692368f8abd3f0bb7b360550') in 0.441633 seconds
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 2.172891 seconds.
+  path: Assets/Sprites/Animation
+  artifactKey: Guid(394953e112421074b99c7b2485aa4844) Importer(PreviewImporter)
+Start importing Assets/Sprites/Animation using Guid(394953e112421074b99c7b2485aa4844) Importer(PreviewImporter)  -> (artifact id: 'a5a9097413dc96334bac2b8ad4a4613b') in 0.001005 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.290055 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerHealth.cs
+  artifactKey: Guid(afb53116b0d909c4b882dfb7eda022f7) Importer(PreviewImporter)
+Start importing Assets/Scripts/PlayerScripts/PlayerHealth.cs using Guid(afb53116b0d909c4b882dfb7eda022f7) Importer(PreviewImporter)  -> (artifact id: '9cd777fa49aa8ddaec5ea13353a9c63b') in 0.000744 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.805454 seconds.
+  path: Assets/Scripts/PlayerScripts/PlayerMovement.cs
+  artifactKey: Guid(25c76b26a0c40e14ead687e77cc5e285) Importer(PreviewImporter)
+Start importing Assets/Scripts/PlayerScripts/PlayerMovement.cs using Guid(25c76b26a0c40e14ead687e77cc5e285) Importer(PreviewImporter)  -> (artifact id: 'efc8738edda39a510ac4cf55e04af8e2') in 0.000924 seconds
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.373063 seconds.
+  path: Assets/Scripts/PlayerScripts/StatsManager.cs
+  artifactKey: Guid(a59bcb33c16573c41b6c66afdd0cfaf0) Importer(PreviewImporter)
+Start importing Assets/Scripts/PlayerScripts/StatsManager.cs using Guid(a59bcb33c16573c41b6c66afdd0cfaf0) Importer(PreviewImporter)  -> (artifact id: 'f6cc40bf6f0e3069f4805bcc75a77c74') in 0.000813 seconds
+Number of asset objects unloaded after import = 0
